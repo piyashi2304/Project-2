@@ -3,15 +3,13 @@
     padding: 0;
 }
  body{ 
-     margin: 50px; 
     background-color: #F7F7F7;
  }
  a{
     text-decoration: none;
  }
 .parent-a{
-    width: 85%;
-    height: auto;
+    height: 60px;
     background-color:#F7F7F7;
     box-shadow: 5px 5px 5px #7B7B7B29;
 }
@@ -53,17 +51,20 @@ h2{
 }
 .parent-1{
     display: flex;
-    justify-content:center;
+    justify-content:flex-start;
     flex-wrap: wrap;
     width: 90%;
     background-color: #F7F7F7;
+    margin-left: 100px;
+    margin-top: 50px;
     
 }
 .child{
+
     border: 1px solid#EDEDED;
     box-shadow: 2px 2px 5px #858585;
-    width: 250px;
-    height: 230px;
+    width: 280px;
+    height: 200px;
     margin: 20px;
 }
 .chA{
@@ -72,9 +73,6 @@ h2{
 }
 .form{
     color:#858585;
-}
-input:checked{
-    color: #424242;
 }
 
 .parent-2{
@@ -140,14 +138,17 @@ h3{
     color: #424242; 
  } 
  .parent-b{
-    width: 400px;
+    width: 452px;
     height: 280px;
     position: absolute;
-    left: 420px;
+    left: 447px;
     top: 120px;
     display: flex;
     justify-content: space-between
 } 
+.parent-b span{
+    color: #424242;
+}
 .child3{
     width: 350px;
     height: 250px;
